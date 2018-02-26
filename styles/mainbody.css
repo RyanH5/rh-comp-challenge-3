@@ -9,9 +9,85 @@ font-family: sans-serif;
 
 main {
   width: calc(100% - 220px);
-  background-color: #E1E1E6;
+  background-color: #edf2f6;
   float: right;
   height: 100vh; 
 }
+
+.four-graphs {
+  padding-right: 20px; 
+}
+
+.bar-chart-area {
+  float: right;
+  width: 40%;
+}
+
+.bar-chart {
+  height: 206px;
+  width: 413px;
+  background-image: url(../images/barChart.png);
+  background-size: cover;
+  margin-top: 12px;
+}
+
+.btn__blood-lust-area {
+  display: flex;
+  justify-content: center;
+}
+
+.btn__blood-lust {
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.section__circle-graphs {
+  display: flex;
+  width: 60%;
+  padding-top: 25px;
+}
+
+.donut {
+  height: 200px;
+}
+
+.btn__total-area {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn__total {
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.section__hrs-and-arrow {
+  display: flex;
+  width: 95%;
+  margin: 45px auto;
+}
+
+.two__hr {
+  width: 50%;
+}
+
+.arrow__up {
+  padding: 3px;
+  border: 1px solid gray;
+  border-radius: 82%;
+  margin-top: -10px;
+  vertical-align: top;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
 
 

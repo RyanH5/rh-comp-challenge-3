@@ -1,6 +1,7 @@
 header {
   width: 100%;
   background-color: #fff;
+  height: 240px;
 }
 
 .group__four-btns {
@@ -79,11 +80,13 @@ header {
   display: flex;
   list-style-type: none;
   margin-top: 40px;
+  width: 85%;
+  justify-content: space-between;
 }
 
 .menu__item {
-  margin-right: 20px;
-  border: 2px solid transparent
+  border: 2px solid transparent;
+  padding-bottom: 12px;
 }
 
 .menu__item:hover {
