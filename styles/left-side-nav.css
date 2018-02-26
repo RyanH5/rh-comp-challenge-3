@@ -1,0 +1,46 @@
+nav {
+  background-color: #C18C75;
+  width: 220px;
+  height: 100vh;
+  display: inline-block;
+  font-family: nosifer;
+}
+
+.sidebar__profile-avatar {
+  background-image: url(../images/Dexter.png);
+  border-radius: 50%;
+  height: 115px;
+  margin: 30px auto 15px;
+  width: 115px;
+  background-size: cover;
+  font-family: nosifer;
+}
+
+.sidebar__profile-username {
+  text-align: center;
+  font-family: nosifer;
+  margin: 0px 0px 20px;
+}
+
+.sidebar__profile-username:hover {
+  color: red;
+  scale: 1.2;
+  cursor: url(http://cur.cursors-4u.net/others/oth-8/oth704.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/11/29/bloody-knife.html" target="_blank" title="Bloody Knife"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Bloody Knife" style="position:absolute; top: 0px; right: 0px;" /></a>
+}
+
+.nav__category {
+  margin: 20px 0 0 15px;
+}
+
+.nav__li {
+  border: 3px solid transparent;
+  margin: 10px 0px;
+  padding-left: 12px;
+}
+
+.nav__li:hover {
+  color: red;
+  border-left: 3px solid red;
+  cursor: url(http://cur.cursors-4u.net/others/oth-8/oth704.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/11/29/bloody-knife.html" target="_blank" title="Bloody Knife"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Bloody Knife" style="position:absolute; top: 0px; right: 0px;" /></a>
+}
+

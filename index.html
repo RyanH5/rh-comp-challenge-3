@@ -2,7 +2,13 @@
 <html lang="en">
 <head>
   <title>Static Comp 3</title>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/mainbody.css">
+  <link rel="stylesheet" type="text/css" href="styles/left-side-nav.css">
+  <link rel="stylesheet" type="text/css" href="styles/header.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src='http://use.edgefonts.net/nosifer.js'></script>
 </head>
 <body>
   <nav>
@@ -10,92 +16,131 @@
       <article class="sidebar__profile-avatar">
       </article>
       <h2 class="sidebar__profile-username">
-        Patrick Bateman
+        Dexter
       </h2>
+      <hr>
     </article>
     <article class="sidebar__area-obsessions">
-      <h5 class="sidebar__obsessions-title">
-        Obsessions
+      <h5 class="sidebar__obsessions-title nav__category">
+        Adversaries
       </h5>
       <ul class="sidebar__obsessions-list">
-        <li class="obsessions-item">
-          <img src="images/" class="obsessions-icon" alt="">
-          FITTING IN
+        <li class="obsessions-item nav__li">
+          <i class="fas fa-truck"></i>
+          Ice Truck Killer
         </li>
-        <li class="obsessions-item">
-          <img src="images/" class="obsessions-icon" alt="">
-          BUSINESS CARDS
+        <li class="obsessions-item nav__li">
+          <i class="fas fa-fire-extinguisher"></i>
+          Lila West
         </li>
-       <li class="obsessions-item">
-          <img src="images/" class="obsessions-icon" alt="">
-          HUEY LEWIS
+       <li class="obsessions-item nav__li">
+          <i class="fas fa-mouse-pointer"></i>
+          The Doomsday Killer
         </li>
-        <li class="obsessions-item">
-          <img src="images/" class="obsessions-icon" alt="">
-          STATUS
+        <li class="obsessions-item nav__li">
+          <i class="fas fa-utensils"></i>
+          The Skinner
         </li>
-        <li class="obsessions-item">
-          <img src="images/" class="obsessions-icon" alt="">
-          MURDER
+        <li class="obsessions-item nav__li">
+          <i class="fas fa-paint-brush"></i>
+          The Trinity Killer
         </li>
       </ul>
+      <hr>
     </article>
     <article class="sidebar__area-victims">
       <h5 
-      class="sidebar__area-title">
-        Victims
+      class="sidebar__area-title nav__category">
+        Friends
       </h5>
-      <ul class="sidebar__victims-list">
-        <li class="victims-item">
-          <img src="" class="" alt="">
-          PAUL ALLEN
+      <ul class="sidebar__friend-list">
+        <li class="friend-item nav__li">
+          <i class="fas fa-user-secret"></i>
+          Harry
         </li>
-        <li class="victims-item">
-          <img src="" class="" alt="">
-          CHRISTIE
+        <li class="friend-item nav__li">
+          <i class="fas fa-female"></i>
+          Deb
         </li>
-        <li class="victims-item">
-          <img src="" class="" alt="">
-          SABRINA
+        <li class="friend-item nav__li">
+          <i class="fas fa-female"></i>
+          Rita
         </li>
-        <li class="victims-item">
-          <img src="" class="" alt="">
-          AL
+        <li class="friend-item nav__li">
+          <i class="fas fa-smile"></i>
+          Batista
         </li>
-        <li class="victims-item">
-          <img src="" class="" alt="">
-          RECEPTIONIST
+        <li class="friend-item nav__li">
+          <i class="far fa-smile"></i>
+          Masuka
         </li>
       </ul>
+      <hr>
     </article>
     <article class="sidebar__area-weapons">
       <h5 
-      class="sidebar__area-title">
-        Weapon
+      class="sidebar__area-title nav__category">
+        Kill Kit
       </h5>
       <ul class="sidebar__weapons-list">
-        <li class="weaponss-item">
-          <input type="checkbox" name="" aria-label="">
-          AX
+        <li class="weaponss-item nav__li">
+          <input type="checkbox" class="css-checkbox" name="" aria-label="">
+          HERO KILL KNIFE
         </li>
-        <li class="weaponss-item">
+        <li class="weaponss-item nav__li">
+          <input type="checkbox" name="" aria-label="">
+          CLEAVER
+        </li>
+        <li class="weaponss-item nav__li">
           <input type="checkbox" name="" aria-label="">
           CHAINSAW
         </li>
-        <li class="weaponss-item">
+        <li class="weaponss-item nav__li">
           <input type="checkbox" name="" aria-label="">
-          GUN
+          RECIPROCATING SAW
         </li>
-        <li class="weaponss-item">
+        <li class="weaponss-item nav__li">
           <input type="checkbox" name="" aria-label="">
-          KNIFE
-        </li>
-        <li class="weaponss-item">
-          <input type="checkbox" name="" aria-label="">
-          ATM
+          HAMMER
         </li>
       </ul>
+      <hr>
     </article>
   </nav>
+  <main>
+    <header>
+      <section class="search__bar-and-btns">
+        <button class="header__menu-hide search__btn" name="" aria-label="Click to hide menu or show displayed menu"><i class="fas fa-bars"></i></button>
+        <input type="text" class="header__search-bar" name="" aria-label="Search for clues about a victim" placeholder="Search Evidence Locker">
+        <button type="submit" class="header__menu-hide search__btn" name="" aria-label="Click to hide menu or show displayed menu"><i class="fas fa-user"></i></button>
+        <button type="submit" class="header__menu-hide search__btn" name="" aria-label="Click to hide menu or show displayed menu"><i class="fas fa-calendar-plus"></i></button>
+        <button type="submit" class="header__menu-hide search__btn" name="" aria-label="Click to hide menu or show displayed menu"><i class="fas fa-th"></i></button>
+      </section>
+      <section class="navigate__page-content">
+        <article class="group__four-btns">
+          <button class="four__btns long"><img src="images/circle1.svg" class="open__circle-red">OPEN</button>
+          <button class="four__btns"><i class="fas fa-crosshairs"></i></button>
+          <button class="four__btns"><i class="fas fa-cut"></i></button>
+          <button class="four__btns"><i class="fas fa-chess-pawn"></i></button>
+        </article>
+        <article>
+          <h1 class="title__monster">I'm A Very Neat Monster</h1>
+          <h5 class="header__location"><i class="fas fa-map-pin"></i>Victim Location</h5>
+          <a href="https://www.google.com/maps/dir//Everglades+City,+Florida/@25.8838288,-81.3966591,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x88da5c605ba45fb1:0x92bcf49fb504533a!2m2!1d-81.3850695!2d25.8582443" class="link__dump-site">Dump Site</a>
+        </article>
+        <article>
+          <ul class="page__menu">
+            <li class="menu__item">Harry's Code</li>
+            <li class="menu__item">Forensics</li>
+            <li class="menu__item">Evidence</li>
+            <li class="menu__item">Blood Slides</li>
+            <li class="menu__item">Kill Kit</li>
+            <li class="menu__item">A Slice Of Life</li>
+            <li class="menu__item">Lock Pick</li>
+          </ul>
+        </article>
+      </section>
+    </header>
+  </main>
 </body>
 </html>

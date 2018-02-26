@@ -1,0 +1,101 @@
+header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.group__four-btns {
+  float: right;
+  margin: 20px 40px 0px 0px;
+  display: flex;
+}
+
+.four__btns {
+  height: 2rem;
+  border-radius: 50%;
+  width: 2rem;
+  margin-right: 4px;
+}
+
+.four__btns:hover {
+  background-color: red;
+}
+
+.long{
+  width: 4.2rem;
+  border-radius: 20px;
+  font-size: .7rem;
+}
+
+.open__circle-red {
+  border-style: none;
+  height: 9px;
+  margin-right: 4px;
+}
+
+
+.search__btn {
+  height: 70px;
+  width: 70px;
+}
+
+.search__btn:hover {
+  background-color: red;
+}
+
+.header__search-bar {
+  height: 70px;
+  width: calc(100% - 280px);
+  padding-left: 26px;
+  font-size: 1.2rem;
+}
+
+.search__bar-and-btns {
+  display: flex;
+}
+
+.navigate__page-content {
+  padding-left: 20px;
+}
+
+.title__monster {
+  font-family: nosifer;
+  color: red;
+  text-shadow: 1px 1px black;
+}
+
+.header__location {
+  display: inline-block;
+  font-size: .8rem;
+}
+
+.link__dump-site {
+  display: inline-block;
+  text-decoration: none;
+  color: blue;
+  font-size: .8rem;
+}
+
+.page__menu {
+  display: flex;
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+.menu__item {
+  margin-right: 20px;
+  border: 2px solid transparent
+}
+
+.menu__item:hover {
+  color: red;
+  border-bottom: 2px solid red;
+  cursor: url(http://cur.cursors-4u.net/others/oth-8/oth704.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/11/29/bloody-knife.html" target="_blank" title="Bloody Knife"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Bloody Knife" style="position:absolute; top: 0px; right: 0px;" /></a>
+}
+
+
+
+
+
+
+
+
