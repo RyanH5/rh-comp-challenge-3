@@ -5,6 +5,7 @@ header {
   box-shadow: inset -2px 11px 7px 4px #CCC, 
               inset 0px -11px 8px -10px #CCC;
   background-image: url(../images/blood-drip.gif);
+  background-repeat: repeat-x;
 }
 
 .group__four-btns {
