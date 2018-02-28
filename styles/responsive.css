@@ -172,8 +172,102 @@
 @media screen and (max-width: 680px) {
   .navigate__page-content {
     padding: 0px 3%;
+  }
+
+  .table {
+    width: 88%;
+  }
+
+  .social__media {
+    width: 88%;
+  }
+
+  .menu__item {
+    padding-bottom: 12px;
+    font-size: 13px;
+  }
+
+  .section__circle-graphs {
+    height: 545px;
+    flex-direction: column;
+  }
+
+  .menu__dis {
+    display: none;
+  }
 }
+
+@media screen and (max-width: 435px) {
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .menu__item {
+    padding-bottom: 12px;
+    font-size: 14px;
+    width: 33%;
+  }
+
+  .b.description-full {
+    max-width: 70%;
+    height: 112px;
+  }
+
+  .btn__dis {
+    display: none;
+  }
+
+  .header__search-bar {
+    height: 60px;
+    width: calc(100% - 60px);
+  }
+
+  .group__four-btns {
+    display: none;
+  }
+
+  .bar-chart-image {
+    height: 205px;
+  }
+
+ header {
+    height: 258px;
 }
+
+  .page__menu {
+    margin-top: 0px;
+  }
+
+  .header__location {
+    margin: 18px auto;
+  }
+
+  .bar-chart-image {
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .bar-chart-image {
+    height: 145px;
+  }
+}
+
+@media screen and (device-aspect-ratio: 40/71) {
+  .bar-chart-image {
+    height: 159px;
+  }
+
+  header {
+    height: 269px;
+  }
+
+  .b.description-full {
+    height: 159px;
+  }
+}
+
 
 
 
