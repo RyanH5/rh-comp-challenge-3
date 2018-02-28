@@ -1,0 +1,86 @@
+.table {
+  width: 60%;
+  background-color: #fff;
+  max-width: 700px;
+  margin: 14px auto;
+  border-radius: 10px;
+}
+
+.table__header {
+  background-color: #717e93;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.b.edit {
+  padding: 8px;
+  margin-top: 10px;
+}
+.fa-w-16 {
+  margin-right: 5px;
+}
+
+.job__description {
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.table__article {
+  display: flex;
+  background-color: #fff;
+  padding: 22px 20px;
+}
+
+.job {
+  background-color: #717e93;
+  padding: 20px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.table__hr {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.pay {
+  border-radius: 0px 0px 5px 5px;
+}
+
+.a {
+  font-size: .8rem;
+  padding-left: 20px;
+  color: #717e93;
+  width: 170px;
+}
+
+.a.job {
+  color: #fff;
+  font-size: .9rem;
+}
+
+.b {
+  color: #717e93;
+  font-size: .8rem;
+}
+
+.b.description-full {
+  max-width: 70%;
+  height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

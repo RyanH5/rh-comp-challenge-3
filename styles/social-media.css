@@ -1,0 +1,88 @@
+.social__media {
+  width: 25%;
+  margin: 17px auto 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social__btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.social__btn:hover {
+  opacity: .8;
+  box-shadow: 0 8px 6px -6px #ccc;
+}
+
+.links {
+  color: #fff;
+  text-decoration: none;
+}
+
+.facebook {
+  background-color: #3f5a93;
+}
+
+.twitter {
+  background-color: #46a1ec;
+}
+
+.linkedin {
+  background-color: #2e76b0;
+}
+
+.social__h2 {
+  margin: 15px 0px;
+  color: #737e91;
+}
+
+.social__p {
+  color: #737e91;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.social__input {
+  height: 2rem;
+  border-radius: 3px 0px 0px 3px;
+  width: 80%;
+}
+
+.social__input.full {
+  width: 100%;
+}
+
+.social__hr {
+  margin: 25px 0px 8px;
+}
+
+.copy__btn {
+  height: 2rem;
+  font-size: .7rem;
+  position: absolute;
+  border-radius: 0px 5px 5px 0px;
+  width: 4.2%;
+  margin-left: -6px;
+  color: #fff;
+  background-color: #65b5be;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,6 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-size: 16px;
-color: black;
 font-family: sans-serif;
 }
 
@@ -11,7 +10,7 @@ main {
   width: calc(100% - 220px);
   background-color: #edf2f6;
   float: right;
-  height: 100vh; 
+  height: 100%; 
 }
 
 .four-graphs {
@@ -41,6 +40,10 @@ main {
   border-radius: 20px;
 }
 
+.btn__blood-lust:hover {
+  background-color: red;
+}
+
 .section__circle-graphs {
   display: flex;
   width: 60%;
@@ -62,6 +65,10 @@ main {
   border-radius: 20px;
 }
 
+.btn__total:hover {
+  background-color: red;
+}
+
 .section__hrs-and-arrow {
   display: flex;
   width: 95%;
@@ -73,13 +80,14 @@ main {
 }
 
 .arrow__up {
-  padding: 3px;
-  border: 1px solid gray;
-  border-radius: 82%;
-  margin-top: -10px;
-  vertical-align: top;
-  color: gray;
+  margin: -8px 3px;
 }
+
+.lower__half {
+  display: flex;
+  padding-bottom: 30px;
+}
+
 
 
 
