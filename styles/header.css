@@ -1,24 +1,24 @@
 header {
-  width: 100%;
-  background-color: #fff;
-  height: 240px;
   box-shadow: inset -2px 11px 7px 4px #CCC, 
               inset 0px -11px 8px -10px #CCC;
+  background-color: #fff;
   background-image: url(../images/blood-drip.gif);
   background-repeat: repeat-x;
+  height: 240px;
+  width: 100%;
 }
 
 .group__four-btns {
+  display: flex;
   float: right;
   margin: 20px 30px 0px 0px;
-  display: flex;
 }
 
 .four__btns {
-  height: 2rem;
   border-radius: 50%;
-  width: 2rem;
+  height: 2rem;
   margin-right: 4px;
+  width: 2rem;
 }
 
 .four__btns:hover {
@@ -26,9 +26,9 @@ header {
 }
 
 .long{
-  width: 4.2rem;
   border-radius: 20px;
   font-size: .7rem;
+  width: 4.2rem;
 }
 
 .open__circle-red {
@@ -36,7 +36,6 @@ header {
   height: 9px;
   margin-right: 4px;
 }
-
 
 .search__btn {
   height: 70px;
@@ -48,10 +47,10 @@ header {
 }
 
 .header__search-bar {
-  height: 70px;
-  width: calc(100% - 280px);
-  padding-left: 26px;
   font-size: 1.2rem;
+  height: 70px;
+  padding-left: 26px;
+  width: calc(100% - 280px);
 }
 
 .search__bar-and-btns {
@@ -63,8 +62,8 @@ header {
 }
 
 .title__monster {
-  font-family: nosifer;
   color: red;
+  font-family: nosifer;
   text-shadow: 1px 1px black;
 }
 
@@ -74,18 +73,18 @@ header {
 }
 
 .link__dump-site {
-  display: inline-block;
-  text-decoration: none;
   color: blue;
+  display: inline-block;
   font-size: .8rem;
+  text-decoration: none;
 }
 
 .page__menu {
   display: flex;
+  justify-content: space-between;
   list-style-type: none;
   margin-top: 40px;
   width: 85%;
-  justify-content: space-between;
 }
 
 .menu__item {
@@ -94,8 +93,8 @@ header {
 }
 
 .menu__item:hover {
-  color: red;
   border-bottom: 2px solid red;
+  color: red;
   cursor: url(http://cur.cursors-4u.net/others/oth-8/oth704.cur), progress !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/11/29/bloody-knife.html" target="_blank" title="Bloody Knife"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Bloody Knife" style="position:absolute; top: 0px; right: 0px;" /></a>
 }
 

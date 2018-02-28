@@ -12,14 +12,14 @@
   }
 
   .btn__total-area {
-    width: 50%;
     position: absolute;
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 1060px) {
   nav {
-    height: 1416px;
+  height: 1405px;
   }
 
   header {
@@ -36,9 +36,9 @@
 
   .four-graphs {
     display: flex;
+    flex-direction: column;
     margin: 0px auto;
     width: 60%;
-    flex-direction: column;
   }
 
   .bar-chart-area {
@@ -46,9 +46,9 @@
   }
 
   .bar-chart {
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   .bar-chart-image {
@@ -56,14 +56,14 @@
   }
 
   .section__circle-graphs {
-    width: 100%;
-    padding-top: 0px;
     height: 180px;
+    padding-top: 0px;
+    width: 100%;
   }
 
   .btn__total-area {
-    width: 100%;
     position: relative;
+    width: 100%;
   }
 
   .section__hrs-and-arrow {
@@ -75,8 +75,8 @@
   }
 
   .social__media {
-    width: 30%;
     margin: 17px auto 0px;
+    width: 30%;
   }
 }
 
@@ -94,11 +94,11 @@
   }
 
   .group__four-btns {
-    position: relative;
-    top: 94px;
+    float: none;
     left: 210px;
     margin: 0px;
-    float: none;
+    position: relative;
+    top: 94px;
   }
 
   h1 {
@@ -110,12 +110,12 @@
   }
 
   .page__menu {
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
     list-style-type: none;
     margin-top: 40px;
     width: 100%;
-    justify-content: normal;
   }
 
   .menu__item {
@@ -123,7 +123,7 @@
   }
 
   .menu__item:hover {
-  border-bottom: 2px solid red;
+    border-bottom: 2px solid red;
   }
 }
 
@@ -163,9 +163,9 @@
   }
 
   .section__circle-graphs {
-    width: 140%;
-    padding-top: 0px;
     margin-left: -20%;
+    padding-top: 0px;
+    width: 140%;
   }
 }
 
@@ -183,17 +183,21 @@
   }
 
   .menu__item {
-    padding-bottom: 12px;
     font-size: 13px;
+    padding-bottom: 12px;
   }
 
   .section__circle-graphs {
-    height: 545px;
     flex-direction: column;
+    height: 545px;
   }
 
   .menu__dis {
     display: none;
+  }
+  .b.description-full {
+    height: 103px;
+    max-width: 55%;
   }
 }
 
@@ -204,14 +208,14 @@
   }
 
   .menu__item {
-    padding-bottom: 12px;
     font-size: 14px;
+    padding-bottom: 12px;
     width: 33%;
   }
 
   .b.description-full {
-    max-width: 70%;
-    height: 112px;
+    height: 149px;
+    max-width: 48%;
   }
 
   .btn__dis {
@@ -233,7 +237,7 @@
 
  header {
     height: 258px;
-}
+  }
 
   .page__menu {
     margin-top: 0px;
@@ -255,8 +259,12 @@
 }
 
 @media screen and (device-aspect-ratio: 40/71) {
+  body {
+    overflow-x: hidden;
+  }
+
   .bar-chart-image {
-    height: 159px;
+    height: 173px;
   }
 
   header {
@@ -264,7 +272,8 @@
   }
 
   .b.description-full {
-    height: 159px;
+    height: 184px;
+    max-width: 43%;
   }
 }
 

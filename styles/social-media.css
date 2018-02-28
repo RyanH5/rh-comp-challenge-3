@@ -1,20 +1,20 @@
 .social__media {
-  width: 25%;
-  margin: 17px auto 0px;
   display: flex;
   flex-direction: column;
+  margin: 17px auto 0px;
+  width: 25%;
 }
 
 .social__btn {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 15px;
   border-radius: 3px;
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 100%;
 }
 
 .social__btn:hover {
-  opacity: .8;
   box-shadow: 0 8px 6px -6px #ccc;
+  opacity: .8;
 }
 
 .links {
@@ -35,19 +35,19 @@
 }
 
 .social__h2 {
-  margin: 15px 0px;
   color: #737e91;
+  margin: 15px 0px;
 }
 
 .social__p {
   color: #737e91;
-  width: 90%;
   margin-bottom: 15px;
+  width: 90%;
 }
 
 .social__input {
-  height: 2rem;
   border-radius: 3px 0px 0px 3px;
+  height: 2rem;
   width: 80%;
 }
 
@@ -60,14 +60,14 @@
 }
 
 .copy__btn {
-  height: 2rem;
-  font-size: .7rem;
-  position: absolute;
-  border-radius: 0px 5px 5px 0px;
-  width: 4.2%;
-  margin-left: -6px;
-  color: #fff;
   background-color: #65b5be;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  font-size: .7rem;
+  height: 2rem;
+  margin-left: -6px;
+  position: absolute;
+  width: 4.2%;
 }
 
 
