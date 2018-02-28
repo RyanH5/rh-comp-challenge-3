@@ -22,12 +22,26 @@ main {
   width: 40%;
 }
 
-.bar-chart {
+/*.bar-chart {
   height: 206px;
   width: 413px;
   background-image: url(../images/barChart.png);
   background-size: cover;
   margin-top: 12px;
+}*/
+
+.bar-chart-image {
+  height: 220px;
+}
+
+.chart-number {
+  font-size: 10px;
+  color: #737e91;
+}
+
+.chart-text {
+  font-size: 4px;
+  color: #737e91;
 }
 
 .btn__blood-lust-area {
@@ -36,7 +50,7 @@ main {
 }
 
 .btn__blood-lust {
-  padding: 3px 10px;
+  padding: 3px 20px;
   border-radius: 20px;
 }
 
@@ -61,7 +75,7 @@ main {
 }
 
 .btn__total {
-  padding: 3px 10px;
+  padding: 3px 20px;
   border-radius: 20px;
 }
 

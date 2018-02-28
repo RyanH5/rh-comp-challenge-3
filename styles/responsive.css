@@ -1,0 +1,184 @@
+@media screen and (max-width: 1255px) {
+  nav {
+    height: 1256px;;
+  }
+
+  .section__circle-graphs {
+    width: 50%;
+  }
+
+  .bar-chart-area {
+    width: 50%;
+  }
+
+  .btn__total-area {
+    width: 50%;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  nav {
+    height: 1416px;
+  }
+
+  header {
+    height: 232px;
+  }
+
+  h1 {
+    font-size: 1.7em;
+  }
+
+  .page__menu {
+    width: 95%;
+  }
+
+  .four-graphs {
+    display: flex;
+    margin: 0px auto;
+    width: 60%;
+    flex-direction: column;
+  }
+
+  .bar-chart-area {
+    width: 100%;
+  }
+
+  .bar-chart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bar-chart-image {
+    height: 222px;
+  }
+
+  .section__circle-graphs {
+    width: 100%;
+    padding-top: 0px;
+    height: 180px;
+  }
+
+  .btn__total-area {
+    width: 100%;
+    position: relative;
+  }
+
+  .section__hrs-and-arrow {
+    display: none;
+  }
+
+  .lower__half {
+    margin-top: 20px;
+  }
+
+  .social__media {
+    width: 30%;
+    margin: 17px auto 0px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    height: 307px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .group__four-btns {
+    position: relative;
+    top: 94px;
+    left: 210px;
+    margin: 0px;
+    float: none;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .header__location {
+    margin-top: 18px;
+  }
+
+  .page__menu {
+    flex-wrap: wrap;
+    display: flex;
+    list-style-type: none;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: normal;
+  }
+
+  .menu__item {
+    width: 25%;
+  }
+
+  .menu__item:hover {
+  border-bottom: 2px solid red;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header {
+    height: 290px;
+  }
+
+  .search__btn {
+    height: 60px;
+    width: 60px;
+  }
+
+  .header__search-bar {
+    height: 60px;
+    width: calc(100% - 240px);
+  }
+
+  .lower__half {
+    flex-direction: column;
+  }
+
+  .table {
+    width: 70%;
+  }
+
+  .social__media {
+    width: 70%
+  }
+
+  .social__input {
+    width: 90%;
+  }
+
+  .copy__btn {
+    width: 8%;
+  }
+
+  .section__circle-graphs {
+    width: 140%;
+    padding-top: 0px;
+    margin-left: -20%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .navigate__page-content {
+    padding: 0px 3%;
+}
+}
+
+
+
+
+
+
+
+
